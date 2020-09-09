@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Grandstander:wght@200&display=swap');
+body {
+    background-color: darkslateblue;
+    color: cyan;
+}
+h1 {
+    color: lightgreen;
+    font-family: 'Dancing Script', cursive;
+    font-size: 400%;
+    text-align: center;
+}
+h2 {
+    color: khaki;
+    font-family: 'Grandstander', cursive;
+    font-size: 250%;
+}
+img {
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+ }
+ img#imgPrincipal {
+     display: block;
+     margin: 50px auto;
+     width: 50%;
+     height: auto
+ }
+ img.logo {
+    margin-left: 15%;
+    border-radius: 50%;
+ }
+ 
