@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+header{
+    background-color: darkslategrey;
+    color: aliceblue;
+    border-radius: 4px;
+    width: 500;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 10px aliceblue;
+    font-weight: lighter;
+}
+main input {
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    width: 60px;
+    border-radius: 2px;
+    background-color: dimgray;
+    color: aliceblue;
+    font-weight: lighter;
+}
+main input:hover{
+    box-shadow: 0 0 8px aliceblue;
+    transition: 0.4s;
+}
+main button{
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    width: 100px;
+    border-radius: 2px;
+    background-color: dimgray;
+    color: aliceblue;
+    font-weight: lighter;
+}
+main button:hover{
+    box-shadow: 0 0 8px aliceblue;
+    transition: 0.4s;
+}
+.resposta {
+    margin: 10px auto;
+    text-align: center;
+}
