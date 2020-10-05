@@ -1,0 +1,52 @@
+body#principal {
+    background-color: darkslateblue;
+    color: thistle;
+}
+body#pg01 {
+    background-color: darkred;
+    color: white;
+}
+body#pg02 {
+    background-color: darkslategrey;
+    color: lightgreen;
+}
+body#pg03 {
+    background-color: midnightblue;
+    color: lightsteelblue;
+}
+#principal a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}  
+#principal a:hover {
+    color: peru;
+}
+img {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.5s;
+    border: 3px solid whitesmoke;   
+}
+ img:hover {
+    width: 400px;
+    box-shadow: 0 0 15px black;
+}
+footer a{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 5px;
+    text-decoration: none;
+    color: black !important;
+    border: 2px outset whitesmoke;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+ }
+  
+ footer a:hover {
+    border: 2px inset gainsboro;
+    background-color: gainsboro;
+ }
+ 
